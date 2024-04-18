@@ -1,0 +1,46 @@
+/* Globle Styles*/
+body {
+    font-family: Arial, Helvetica, sans-serif serif;/*fonts style for entire document*/
+    margin: 0; /*To remove default margin*/
+    padding: 0; /*To remove default margin*/
+    background-color: #e2f3a2; /*background colour to entire document*/
+}
+/* Header styles*/
+header {
+    background-color: #b54ff8; /* background color for heading*/
+    color: black; /*background color for the header*/
+    padding: 20px; /*padding around header content*/
+    display:block; /*Ensure header behaves as a block element*/
+}
+/*navigation styles*/
+nav ul {
+    list-style-type: none; /* Remove default bullet points from list */
+    padding: 5px; /* Add padding to the list */
+    
+}
+
+nav ul li {
+    display: inline ;  /* Display list items horizontally */
+    margin-right: 50px;  /* Add right margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /*Remove underline from anchor links*/
+    color: #0f0e0e; /*text color for anchor links*/
+
+}
+/*sections style*/
+section {
+    padding: 20px; /*padding around section content*/
+    margin-bottom: 25px; /*bottom margin between sections*/
+    background-color: #ffffff; /*background color for sections*/
+}
+/*footer style*/
+footer {
+    background-color:#b54ff8; /*background color for the footer*/
+    color: black; /*text color*/
+    padding: 10px; /*padding around footer content*/
+    text-align: center; /*Align text to the center*/
+}
+
+

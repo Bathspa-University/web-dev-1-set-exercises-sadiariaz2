@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Added a fallback font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4e8f79;
+    color: #110e0e;
+    padding: 10px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #140b0b;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Increased padding for better spacing */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading Styles */
+h2 {
+    color: #140b0b;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4e8f79;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button Styles */
+.button {
+    background-color: #021246;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+.button:hover {
+    background-color: #568fcc;
+}

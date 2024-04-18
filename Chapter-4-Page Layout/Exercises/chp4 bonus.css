@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #84aeb6;
+    color: #0f0f0f;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #161616;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.left-column, .right-column {
+    width: 40%;
+}
+
+footer {
+    background-color: #84aeb6;
+    color: #161616;
+    text-align: center;
+    padding: 10px 0;
+}

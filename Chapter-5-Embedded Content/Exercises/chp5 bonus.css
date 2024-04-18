@@ -1,0 +1,46 @@
+body {
+    background-color: #64725b;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-image: cover;
+  }
+#heading{
+    background: rgb(230, 220, 220);
+    color: #0004fc;;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 2rem;
+    width: 29%;
+    margin-left: 28rem;
+    padding: 4px;
+    border-radius: 5px;
+}
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 88px;
+    margin-top: -4rem;
+}
+.sound-button br + span {
+    display: block;
+    margin: 13px 0px;
+    font-weight: 600;
+  }
+.sound-button {
+    height: 85%;
+    background-color: white;
+    padding: 45px;
+    border: 7px solid black;
+    color: black;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.sound-button:hover {
+    background-color: #3160e1;
+}
